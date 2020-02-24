@@ -1,10 +1,13 @@
 $(document).ready(function(){
-  map_example();
+  arrow_functions_example();
   $('#tema').change(function () {
     switch ($('#tema').val()) {
+      case 'arrow_functions':
+        arrow_functions_example();
+        break;
       case 'map':
         map_example();
-        break;set_example()
+        break;
       case 'set':
         set_example();
         break;
